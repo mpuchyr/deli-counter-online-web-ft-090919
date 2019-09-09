@@ -14,5 +14,8 @@ def line(queue)
   puts this_line
 end
 
-def take_a_number
+def take_a_number(line, name)
+  line.push(name)
+  puts "Welcome, #{name}. You are number #{line.index(name) + 1} in line."
+  line
 end
