@@ -1,6 +1,7 @@
 # Write your code here.
-line = "The line is currently"
+
 def line(queue)
+  line = "The line is currently"
   if queue.length == 0
     line << " empty."
   else
