@@ -5,9 +5,9 @@ def line(queue)
   if queue.length == 0
     this_line << " empty."
   else
-    this_line << ": "
+    this_line << ":"
     queue.each_with_index do |person, index|
-      this_line << "#{index + 1}. #{person} "
+      this_line << " #{index + 1}. #{person}"
     end
   end
   
