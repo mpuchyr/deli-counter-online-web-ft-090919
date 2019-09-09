@@ -6,6 +6,7 @@ def line(queue)
   else
     queue.each_with_index do |person, index|
       puts "#{index}. #{person}"
+    end
   end
 end
 
